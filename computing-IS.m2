@@ -141,32 +141,3 @@ return HS;
 }
 
 
-
-
-
-
-
-
--- Example 2.9:
-
-
-S = {6,11,13} 
-IS = I(H(S));
-
-for Sb in subsets(S) do {
-    ISb = I(H(Sb));
-    print(Sb, isSubset(ISb, IS));
-    }
-
-
-dim IS
-degree IS
-
-decomp = decompose IS;
-length decomp
-
-netList (decomp_0)_*
-netList (decomp_1)_*
-
-
-
